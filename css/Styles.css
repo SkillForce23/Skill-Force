@@ -1,0 +1,135 @@
+*{
+    
+    font-family: "Roboto", serif;
+}
+body{
+    margin: 0px;
+}
+.NavBar{
+    background-color: darkslategray;
+    position: fixed;
+    height: 50px;
+    width: 10000px;
+    float: left;
+}
+.NavList{
+    width: 100%
+}
+section{
+    display: none;
+}
+.section-active{
+    display: block;
+}
+.NavList li{
+    display: inline-block
+}
+.NavList li a{
+    color: #fff;
+    margin: 0px 30px 0px 46px;
+    text-decoration: none;
+}
+.NavList li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.tab-active{
+    color: aqua !important;
+    text-decoration: underline;
+}
+.Text-Center{
+    text-align: center;
+}
+.Welcome{
+    background-image: url("../Images/TOMMY_STUDIOS3.png");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 300px 0px 100px 0px;
+}
+.Anmeldung{
+    padding: 0px 0px 0px 10px;
+}
+.Kath1{
+    padding: 10px 0px 0px 0px;
+}
+.Kath2{
+    padding: 0px 0px 0px 0px;
+}
+.Anmeldung{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.Anmeldung input{
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 0px 10px 0px 10px;
+}
+.Anmeldung input:hover{
+    border: 2px solid darkslategrey;
+    color: darkslategray;
+}
+.Kath1 h1{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+.Kath2 h1{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+.btn{
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-weight: 500;
+}
+.SpanDaten{
+    font-weight: 800;
+    text-decoration: underline;
+}
+.Anmeldung p{
+    font-weight: 600;
+    font-size: 20px
+}
+.Anmeldung h1{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+.footerPanel{
+    background-color: darkslategrey;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px
+}
+.Footer h2{
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 20px 0px 0px 10px
+}
+.Footer p{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 20px 10px
+}
+.footerPanel span{
+    color: skyblue;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.SocialMedia{
+    text-align: center;
+}
+.SocialMedia li{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    margin: 10px 70px 10px 0px;
+}.SocialMedia  a{
+    color: white;
+}
+.icon{
+    height: 40px;
+    margin: 0px 0px -7px 0px
+}
