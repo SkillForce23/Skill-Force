@@ -13,7 +13,6 @@
                         <li><a class="tab-active" href="#Anmeldung">Anmelden</a></li>
                         <li><a href="#Überuns"> Über uns</a></li>
                         <li><a href="#Erwartungen"> Erwartungen</a></li>
-                        <li><a href="#Termine"> Termine</a></li>
                     </ul>
                 </nav>
                 <div class="Welcome">
@@ -21,16 +20,20 @@
         </header>
         <main>
              <section id="Anmeldung" class="Anmeldung section-active">
-                    <h1>Anmeldung</h1>
+                    <h1 id="AnmeldeÜberschrift">Anmeldung</h1>
                  <p>Um dir den Videokurs angucken zu können musst du dich
                      <br>Anmelden mit den <span class="SpanDaten">Daten die dir per E-mail geschickt wurden</span></p>
                         <form action="" method="get">
-                            <input type="text" name="name" placeholder="Name" required>
-                            <input type="password" name="password" placeholder="password" required>
-                            <input type="email" name="email" placeholder="IhreEmail@gmail.com" required>
-                            <input type="submit" class="btn" name="submit">
+                            <input type="text" id="username" placeholder="Benutzername" required>
+                            <input type="password" id="password" placeholder="Passwort" required>
+                            <button type="button" class="btn" onclick="getInfo()">Anmelden</button>
                         </form>
              </section>
+            <section id="VideoKurs">
+                <ul>
+                    <li><p>lil</p></li>
+                </ul>
+            </section>
         </main>
         <footer class="Footer">
             <section class="footerPanel" id="Überuns">
@@ -39,7 +42,7 @@
                 <ul class="SocialMedia">
                     <li><img src ="Images/icons8-tiktok-144.png" class="icon"alt="tiktok"><a href="https://www.tiktok.com/@tommy_.studios._" target="_blank">Tiktok</a></li>
                     <li><img src ="Images/icons8-instagram-144.png" class="icon"alt="instagram"><a href="https://www.instagram.com/tommy_studios._/" target="_blank" >Instagram</a></li>
-                    <li><img src ="Images/icons8-discord-144.png" class="icon" alt="discord"><a href="https://discord.gg/dHvtvwAe" target="_blank" >Discord</a></li>
+                    <li><img src ="Images/icons8-discord-144.png" class="icon" alt="discord"><a href="https://discord.gg/UVGT5snj" target="_blank" >Discord</a></li>
                 </ul>
             </section>
             <section class="footerPanel" id="Erwartungen">
@@ -48,12 +51,6 @@
                     Wir bieten dir ebenfalls die Chance, dass du mit einem extra Abo <span>Pixel Art, 3D Modelierung... </span> lernen kannst. Dir werden deine <span>Anmlededaten</span> über deine Email zugeschickt. Ebenfalls erhälst du eine Einladung zu unserem <span>Discord</span> in <br> dem andere Teilnehmer unserer Community nur auf dich warten. Also los, worauf wartest du noch? Wir freuen uns auf dich!
                 <br>Dein ToMMy-Studios-Team!</p>
              </section>
-            <section id="Termine" class="Termine">
-                <ul>
-                    <li><h1>Termine</h1></li>
-                    
-                </ul>
-            </section>
         </footer>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="JavaScript/script.js" type="text/javascript"></script>
