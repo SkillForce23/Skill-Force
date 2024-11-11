@@ -147,3 +147,42 @@ section{
     height: 40px;
     margin: 0px 0px -7px 0px
 }
+.KathegorienVideos{
+    background-color: darkslategrey;
+    height: 250px;
+    width: 250px;
+    text-align: justify ;
+    background-image: url("../Images/icons8-laptop-100.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}.ListKathegories div
+
+{
+    margin: 55px;
+    align-content: center;
+    border-radius: 45px;
+}
+.ListKathegories h2
+{
+    padding: 180px 0px 0px 0px;
+    color: white;
+    text-align: center;
+}
+.ListKathegories
+{
+    display: flex;
+    list-style: none;
+}
+.KursTitle{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    background-color: darkslategrey;
+    margin: 0px 600px 0px 600px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+}
+
+    
