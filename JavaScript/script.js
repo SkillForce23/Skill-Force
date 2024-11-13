@@ -38,6 +38,52 @@ var Users=[
         password : "l67ds89e"
     }
 ]
+
+var Button =[$("#1"),$("#2"),$("#3"),$("#4"),$("#5"),$("#6"),$("#7"),$("#8"),$("#9"),$("#10")];
+var Panels = [$("#Kathegorie1"),$("#Kathegorie2"),$("#Kathegorie3"),$("#Kathegorie4"),$("#Kathegorie5"),$("#Kathegorie6"),$("#Kathegorie7"),$("#Kathegorie8"),$("#Kathegorie9"),$("#Kathegorie10")];
+
+$(Button[0]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[0].addClass("section-active");
+})
+$(Button[1]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[1].addClass("section-active");
+})
+$(Button[2]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[2].addClass("section-active");
+})
+$(Button[3]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[3].addClass("section-active");
+})
+$(Button[4]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[4].addClass("section-active");
+})
+$(Button[5]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[5].addClass("section-active");
+})
+$(Button[6]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[6].addClass("section-active");
+})
+$(Button[7]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[7].addClass("section-active");
+})
+$(Button[8]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[8].addClass("section-active");
+})
+$(Button[9]).click(function(){
+    $("#VideoKurs").removeClass("section-active");
+    Panels[9].addClass("section-active");
+})
+
+
 function getInfo()
 {
     var username = document.getElementById('username').value
