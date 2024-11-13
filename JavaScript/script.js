@@ -94,16 +94,24 @@ function getInfo()
             if(username==Users[i].username&& password==Users[i].password)
                {
                     console.log("Anmeldung Erfolgreich!");
-                   AnmeldungSucceeded = true;
-                   ChangeView();
-                   return;
+                    AnmeldungSucceeded = true;
+                    ChangeView();
+                    $("#AnmeldeDatenFalsch").removeClass("section-active");
+                    return;
                }
             console.log("Anmledung Fehlgeschlagen!")
             $("#username").val("");
             $("#password").val("");
-            
+            $("#AnmeldeDatenFalsch").addClass("section-active");
         }
 }
+$("#Zurück").click(function(){
+    for(var i = 0; i < Panels.length; i++)
+        {
+            Panels[i].removeClass("section-active");
+        }
+    $("#VideoKurs").addClass("section-active");
+})
 function ChangeView()
 {
     $("#Anmeldung").removeClass("section-active");

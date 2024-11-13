@@ -60,13 +60,13 @@ section{
     padding: 0px 0px 50px 0px;
 }
 .Anmeldung input{
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
     border-radius: 15px;
     border: 2px solid black;
     margin: 0px 10px 0px 10px;
 }
 .Anmeldung input:hover{
-    border: 2px solid darkslategrey;
+    border: 2px solid #2E5E7E;
     color: darkslategray;
 }
 .Kath1 h1{
@@ -88,25 +88,25 @@ section{
 }
 .Anmeldung p{
     font-weight: 600;
-    font-size: 20px
+    font-size: 24px
 }
 .Anmeldung h1{
     text-decoration: underline;
     color: darkslategrey;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 800px;
 }
 .Anmeldung button{
-    height: 40px;
-    width: 80px;
+    height: 50px;
+    width: 90px;
     border-radius: 40px;
     border: 2px solid black;
     text-align: center;
 }
 .Anmeldung button:hover{
-    border-radius: 40px;
-    border: 2px solid darkslategrey;
+    border-radius: 16px;
+    background-color: #2E5E7E !important;
     text-align: center;
-    color: skyblue;
 }
 .footerPanel{
     background-color: darkslategrey;
@@ -160,6 +160,11 @@ section{
     text-align: center;
     border-radius: 45px;
     margin: 55px;
+     border: 2px solid black;
+}.ListKathegories div:hover
+{
+    border-radius: 30px;
+    background-color: #2E5E7E !important;
 }
 .ListKathegories h2
 {
@@ -181,8 +186,10 @@ section{
     background-color: darkslategrey;
     margin: 0px 600px 0px 600px;
     padding: 10px;
+     border: 2px solid black;
     border-radius: 45px;
     color: white;
+     border: 2px solid black;
 }
 .VideosUl{
     display:flex;
@@ -195,8 +202,45 @@ section{
 }
 .VideosUl h2{
     text-align: center;
-    text-decoration: underline;
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
     font-weight: 600px;
+    background-color: darkslategrey;
+    border-radius: 45px;
+    padding: 10px;
+     border: 2px solid black;
 }
-    
+.Back{
+    background-color: darkslategrey;
+    margin: 0px 1700px 0px 20px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+     border: 2px solid black;
+}
+.Back:hover{
+    border-radius: 17px;
+    background-color: #2E5E7E !important;
+}
+.AnmeldeDatenFalsch{
+    background-color: darkslategrey;
+    border: 7px solid #2E5E7E;
+    border-radius: 45px;
+    text-align: center;
+    margin: 0px 650px 0px 650px;
+    text-decoration: underline;
+}
+.AnmeldeDatenFalsch p{
+    font-size: 24px;
+    color: white;
+    font-weight: 800px;
+    text-decoration: underline;
+}
+.AnmeldeDatenFalsch h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 800px;
+    text-decoration: underline;
+}
