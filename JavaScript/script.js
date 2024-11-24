@@ -1,4 +1,13 @@
 //setion active/inactive//
+document.addEventListener("contextmenu", e=> e.preventDefault(), false);
+document.addEventListener("keydown", e => {
+    if(e.ctrlKey || e.keyCode == 123)
+        {
+            e.stopPropagation();
+            e.preventDefault();
+        }
+       
+})
 var AnmeldungSucceeded = false;
 $("#navlist li a").click(function(e){
     e.preventDefault();
