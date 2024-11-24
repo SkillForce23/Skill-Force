@@ -43,8 +43,9 @@ section{
     background-image: url("../Images/TOMMY_STUDIOS3.png");
     background-color: black;
     background-position: center;
+    align-self: center;
     background-repeat: no-repeat;
-    padding: 300px 0px 100px 0px;
+    padding: 300px 0px 100px;
 }
 .Anmeldung{
     padding: 0px 0px 0px 10px;
@@ -150,17 +151,17 @@ section{
     background-color: darkslategrey;
     height: 250px;
     width: 250px;
-    text-align: justify ;
     background-image: url("../Images/icons8-laptop-100.png");
-    background-position: center;
     background-repeat: no-repeat;
     
 }.ListKathegories div
 {
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
     border-radius: 45px;
-    margin: 55px;
-     border: 2px solid black;
+    margin: 0px 15px;
+    border: 2px solid black;
 }.ListKathegories div:hover
 {
     border-radius: 30px;
@@ -178,24 +179,29 @@ section{
     display: flex;
     list-style: none;
     justify-content: center;
+    align-items: left;
 }
 .KursTitle{
-    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    background-size: cover;
+    text-decoration: underline;
     font-size: 40px;
     background-color: darkslategrey;
-    margin: 0px 600px 0px 600px;
     padding: 10px;
-     border: 2px solid black;
+    border: 2px solid black;
     border-radius: 45px;
     color: white;
-     border: 2px solid black;
+    border: 2px solid black;
+    margin: 0px 50px 0px 50px;
 }
 .VideosUl{
     display:flex;
     align-self: center;
     list-style: none;
     justify-content: center;
+    padding: 30px 100px;
 }
 .VideosUl li{
     padding: 0px 10px 0px 0px;
@@ -212,13 +218,15 @@ section{
 }
 .Back{
     background-color: darkslategrey;
-    margin: 0px 1700px 0px 20px;
+    text-align: center;
+    background-position: center;
+    margin: 20px 50px;
+    width: 80px;
     padding: 10px;
     border-radius: 45px;
     color: white;
-    text-align: center;
     text-decoration: underline;
-     border: 2px solid black;
+    border: 2px solid black;
 }
 .Back:hover{
     border-radius: 17px;
@@ -229,7 +237,7 @@ section{
     border: 7px solid #2E5E7E;
     border-radius: 45px;
     text-align: center;
-    margin: 0px 650px 0px 650px;
+    margin: 0px 450px;
     text-decoration: underline;
 }
 .AnmeldeDatenFalsch p{
