@@ -151,7 +151,8 @@ section{
     background-color: darkslategrey;
     height: 250px;
     width: 250px;
-    background-image: url("../Images/icons8-laptop-100.png");
+    background-image: url("../Images/icons8-code-96.png");
+    background-position: center;
     background-repeat: no-repeat;
     
 }.ListKathegories div
