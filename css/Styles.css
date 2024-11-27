@@ -151,11 +151,10 @@ section{
     background-color: darkslategrey;
     height: 250px;
     width: 250px;
-    background-image: url("../Images/icons8-code-96.png");
     background-position: center;
     background-repeat: no-repeat;
-    
-}.ListKathegories div
+}
+.ListKathegories div
 {
     align-items: center;
     justify-content: center;
@@ -163,7 +162,12 @@ section{
     border-radius: 45px;
     margin: 0px 15px;
     border: 2px solid black;
-}.ListKathegories div:hover
+    
+}
+.kat1{
+    background-image: url("../Images/Start.svg");
+}
+.ListKathegories div:hover
 {
     border-radius: 30px;
     background-color: #2E5E7E !important;
@@ -198,14 +202,18 @@ section{
     margin: 0px 50px 0px 50px;
 }
 .VideosUl{
-    display:flex;
-    align-self: center;
+    display:grid;
+    align-self: left;
     list-style: none;
-    justify-content: center;
-    padding: 30px 100px;
+    justify-content: left;
+    padding: 30px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 10px
 }
 .VideosUl li{
-    padding: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    flex:  ;
 }
 .VideosUl h2{
     text-align: center;
@@ -216,6 +224,17 @@ section{
     border-radius: 45px;
     padding: 10px;
      border: 2px solid black;
+}
+.VideosUl h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: darkslategrey;
+    border-radius: 45px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 30px 100px;
 }
 .Back{
     background-color: darkslategrey;
@@ -252,4 +271,20 @@ section{
     color: white;
     font-weight: 800px;
     text-decoration: underline;
+}
+.ButtonUnderVideos {
+    background-color: darkslategrey;
+    text-align: center;
+    background-position: center;
+    margin: 20px 245px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+.ButtonUnderVideos:hover{
+    border-radius: 17px;
+    background-color: #2E5E7E !important;
 }

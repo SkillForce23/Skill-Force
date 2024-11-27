@@ -106,6 +106,7 @@ function getInfo()
                     AnmeldungSucceeded = true;
                     ChangeView();
                     $("#AnmeldeDatenFalsch").removeClass("section-active");
+                    $("#anmeldebutton").text("Kurs");
                     return;
                }
             console.log("Anmledung Fehlgeschlagen!")
