@@ -293,7 +293,14 @@ section{
     border-radius: 17px;
     background-color: #2E5E7E !important;
 }
-@media (max-width: 600px) {
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
     
     .Welcome{
         width: 100%;
@@ -342,7 +349,7 @@ section{
         text-decoration: underline;
     }
     .KursTitle{
-        font-size: 22px;
+        font-size: 12px;
     }
     .KathegorienVideos
     {
@@ -415,13 +422,13 @@ section{
 }
 
 
-@media (min-width: 601px) {
+@media only screen and (min-width: 601px)and(orientation:portrait) {
     
     .Welcome{
         width: 100%;
         background-position: center;
         background-size: cover;
-        padding: 700px 0px 200px;
+        padding: 600px 0px 200px;
     }.NavList{
         width: 100%;
         font-size: 30px;
@@ -552,17 +559,13 @@ section{
     }
 }
 
-
-
-
-
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     
     .Welcome{
         background-position: center;
         background-size: 500px;
         padding: 200px 0px;
-}.NavList{
+    }.NavList{
         width: 100%;
         font-size: 15px;
     }
@@ -599,7 +602,6 @@ section{
         border: 3px solid black;
         text-align: center;
         font-size: 20px;
-    }
     }.AnmeldeDatenFalsch{
         background-color: darkslategrey;
         border: 7px solid #2E5E7E;
@@ -705,4 +707,11 @@ section{
         background-color: #2E5E7E !important;
     }
 }
+
+
+
+
+
+
+
 
