@@ -11,6 +11,9 @@ body{
     width: 10000px;
     float: left;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .NavList{
     width: 100%
 }
@@ -40,12 +43,10 @@ section{
     text-align: center;
 }
 .Welcome{
-    background-image: url("../Images/Neues_Logo.png");
+    background-image: url("../Images/result-removebg-preview.png");
     background-color: #363845;
-    background-position: center;
-    align-self: center;
     background-repeat: no-repeat;
-    padding: 300px 0px 0px;
+    padding: 160px 0px;
 }
 .Anmeldung{
     padding: 0px 0px 0px 10px;
@@ -106,7 +107,7 @@ section{
 }
 .Anmeldung button:hover{
     border-radius: 16px;
-    background-color: #269ccd !important;
+    background-color: #145485 !important;
     text-align: center;
 }
 .footerPanel{
@@ -115,17 +116,20 @@ section{
     margin: 10px 10px 10px 10px
 }
 .Footer h2{
-    text-align: left;
+    text-align: center;
     color: white;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px 0px 0px 10px
 }
 .Footer p{
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 20px;
     padding: 0px 0px 20px 10px
+}
+.Links:hover{
+    color: black;
 }
 .footerPanel span{
     color: skyblue;
@@ -253,6 +257,39 @@ section{
     border: 2px solid black;
 }
 .Back:hover{
+    border-radius: 17px;
+    background-color: #2E5E7E !important;
+}
+}
+.Next{
+    float: right;
+    background-color: #269ccd;
+    text-align: right;
+    background-position: center;
+    margin: 20px 50px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+.Next:hover{
+    border-radius: 17px;
+    background-color: #2E5E7E !important;
+}
+.Last{
+    background-color: #269ccd;
+    background-position: center;
+    margin: 20px 50px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+.Last:hover{
     border-radius: 17px;
     background-color: #2E5E7E !important;
 }
@@ -560,10 +597,40 @@ section{
 
 @media only screen and (min-width: 1200px) {
     
+    .Next{
+        background-color: #269ccd;
+        float: right;
+        margin: 20px 50px;
+        width: 85px;
+        padding: 10px;
+        border-radius: 45px;
+        color: white;
+        text-decoration: underline;
+        border: 2px solid black;
+    }
+    .Next:hover{
+        border-radius: 17px;
+        background-color: #2E5E7E !important;
+    }
+    .Last{
+        background-color: #269ccd;
+        float: left;
+        margin: 20px 50px;
+        width: 70px;
+        padding: 10px;
+        border-radius: 45px;
+        color: white;
+        text-decoration: underline;
+        border: 2px solid black;
+    }
+    .Last:hover{
+        border-radius: 17px;
+        background-color: #2E5E7E !important;
+    }
     .Welcome{
-        background-position: center;
+        background-position: bottom;
         background-size: 300px;
-        padding: 400px 0px 0px;
+        padding: 155px 0px;
     }.NavList{
         width: 100%;
         font-size: 20px;
