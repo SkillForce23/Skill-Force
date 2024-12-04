@@ -10,6 +10,7 @@ body{
     height: 50px;
     width: 10000px;
     float: left;
+    z-index: 100;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -293,6 +294,28 @@ section{
     border-radius: 17px;
     background-color: #2E5E7E !important;
 }
+.FakeButton{
+    background-color: white;
+    background-position: center;
+    margin: 20px 50px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid white;
+}
+.FakeButton1{
+    background-color: white;
+    background-position: center;
+    margin: 20px 50px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid white;
+}
 .AnmeldeDatenFalsch{
     background-color: #269ccd;
     border: 7px solid #2E5E7E;
@@ -328,6 +351,33 @@ section{
 .ButtonUnderVideos:hover{
     border-radius: 17px;
     background-color: #269ccd !important;
+}
+.progress-bar{
+    position:relative;
+    width: 800px;
+    display: inline-block;
+    height: 3em;
+    background-color: #363845;
+    border: 5px solid #335;
+    border-radius: 2em;
+    justify-self: center;
+    color: white;
+    margin: 20px 350px;
+}
+.progress-bar::before {
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position:absolute;
+    left: .2em;
+    top: .2em;
+    bottom: .2em;
+    width: calc(var(--width, 0) * 1%);
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    background-color: #269ccd;
+    border-radius: 3em;
+    padding:1em;
 }
 
 
@@ -627,6 +677,20 @@ section{
         border-radius: 17px;
         background-color: #2E5E7E !important;
     }
+    .FakeButton{
+        float: left;
+        margin: 20px 50px;
+        width: 70px;
+        padding: 10px;
+        border-radius: 45px;
+    }
+    .FakeButton1{
+        float: right;
+        margin: 20px 50px;
+        width: 70px;
+        padding: 10px;
+        border-radius: 45px;
+    }
     .Welcome{
         background-position: bottom;
         background-size: 300px;
@@ -774,7 +838,8 @@ section{
         color: white;
         text-decoration: underline;
         border: 2px solid black;
-    }.ButtonUnderVideos:hover{
+    }
+    .ButtonUnderVideos:hover{
         border-radius: 17px;
         background-color: #2E5E7E !important;
     }
